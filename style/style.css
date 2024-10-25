@@ -118,8 +118,22 @@ body {
 
 .six img {
   display: inline-block;
-  max-width: 80%;
-  height: auto;
+  max-width: 100%; /* 确保图片不会超出父容器 */
+  height: auto; /* 保持原始比例 */
+}
+
+/* 默认宽度为 300px */
+@media (min-width: 768px) {
+  .six img {
+    width: 300px; /* 固定宽度 300px */
+  }
+}
+
+/* 在小屏幕设备上，图片宽度为父容器的 80% */
+@media (max-width: 767px) {
+  .six img {
+    width: 80%; /* 图片宽度为父容器的 80% */
+  }
 }
 
 .six .hat {
