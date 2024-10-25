@@ -125,14 +125,14 @@ body {
 /* 默认宽度为 300px */
 @media (min-width: 768px) {
   .six img {
-    width: 100px; /* 固定宽度 100px */
+    width: 200px; /* 固定宽度 200px */
   }
 }
 
 /* 在小屏幕设备上，图片宽度为父容器的 80% */
 @media (max-width: 767px) {
   .six img {
-    width: 50%; /* 图片宽度为父容器的 50% */
+    width: 70%; /* 图片宽度为父容器的 70% */
   }
 }
 
