@@ -125,7 +125,7 @@ body {
 /* 默认宽度为 300px */
 @media (min-width: 768px) {
   .six img {
-    width: 200px; /* 固定宽度 200px */
+    width: 300px; /* 固定宽度 200px */
   }
 }
 
